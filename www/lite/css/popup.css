@@ -1,0 +1,55 @@
+@CHARSET "UTF-8";
+
+/* POPUP START */
+div#popupscontainer{
+	position: relative;
+}
+
+div.popupwindow{
+	position: absolute;
+	border:1px solid #DDD;
+	background-color: white;
+	z-index: 500;
+}
+
+div.popuptitle{
+	background-color: #89D9F4;
+	color: white;
+	padding: 3px 10px;
+	cursor: move;
+}
+
+div.popupclose{
+	background: url("/lite/img/closeButton.jpg") no-repeat;
+	width: 10px;
+	height: 10px;
+	cursor: pointer;
+	position: absolute;
+	right: 7px;
+	top: 7px;
+}
+
+div#popupbody{
+	padding: 7px 7px;
+}
+
+.align_center {
+    position: relative;
+    width: 100%;
+}
+/*.align_center:after {
+    clear: both;
+    content: "";
+    display: block;
+}*/
+.align_center_to_left {
+    float: right;
+    position: relative;
+    right: 50%;
+}
+.align_center_to_right {
+    position: relative;
+    right: -50%;
+    z-index: 1;
+}
+/* POPUP END*/
