@@ -1,0 +1,128 @@
+.catalog_header h2{
+	color:#403322;
+	font-size:24px;
+	font-weight:normal;
+	margin-bottom:10px;
+	margin-top:20px;
+	text-decoration:none;
+}
+
+.catalog_block
+{
+  float:left;
+  height:205px;
+  width:305px;
+  margin-top:35px;
+  margin-right:45px;
+}
+
+.catalog_pict
+{
+  float:left;
+  margin-top:20px;
+  width:91px;
+}
+
+.catalog_text
+{
+}
+
+.card_picture
+{
+  clear:both;
+  float:left;
+  margin-top:25px;
+  width:168px;
+}
+
+.addBasket
+{
+  background: url("../images/top-menu/basket.png") no-repeat scroll left top transparent;
+  float:left;
+  height:29px;
+  padding-left:75px;
+  padding-top:20px;
+}
+
+.addBasket_ie
+{
+  float:left;
+  height:29px;
+  padding-left:75px;
+  padding-top:20px;
+}
+
+
+.price
+{
+  margin:14px 0;
+}
+
+.indexfilter_element{
+	float: left;
+	margin: 3px 8px;	
+}
+
+.serias_title{
+	font-family: Verdana;
+	font-size: 9px;
+	line-height: 10px;
+	text-align: center;
+	vertical-align: top;
+	padding: 0 5px;
+}
+
+.serias_images{
+	padding: 0 5px;
+	text-align: center;
+}
+
+.cross{
+	width: 13px;
+	height: 13px;
+	background: url(../images/content/cross.png) no-repeat;
+	cursor: pointer;
+}
+
+.orderform td{
+	vertical-align: top;
+	padding: 4px 0 4px 0;
+}
+
+.orderform td.firstcolumn{
+	padding-right: 8px;
+	white-space: nowrap;
+}
+
+
+.orderform td.seccolumn{
+	text-align: center;	
+}
+
+.orderform td input, .orderform textarea{
+	border:#403323 1px solid;
+	outline-color:#31b2df;
+/*	padding-left:6px;*/
+}
+
+#orderform_where td input.fat{
+	width: 250px;
+}
+
+#orderform_whom .firstcolumn{
+	width: 65px;
+}
+
+.orderform td input.thin{
+	width: 76px;
+}
+
+.orderform textarea{
+	width: 250px;
+	height: 135px;
+}
+
+#tableOrder
+{
+  width: 600px;
+}
